@@ -1,0 +1,972 @@
+body {
+    font-family: 'cartogothic_stdregular';
+}
+
+@font-face {
+    font-family: 'cartogothic_stdbold';
+    src: url('fonts/cartogothicstd-bold-webfont.eot');
+    src: url('fonts/cartogothicstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/cartogothicstd-bold-webfont.woff') format('woff'),
+    url('fonts/cartogothicstd-bold-webfont.ttf') format('truetype'),
+    url('fonts/cartogothicstd-bold-webfont.svg#cartogothic_stdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cartogothic_stdregular';
+    src: url('fonts/cartogothicstd-book-webfont.eot');
+    src: url('fonts/cartogothicstd-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/cartogothicstd-book-webfont.woff') format('woff'),
+    url('fonts/cartogothicstd-book-webfont.ttf') format('truetype'),
+    url('fonts/cartogothicstd-book-webfont.svg#cartogothic_stdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body > .container {
+    margin: 0 auto;
+}
+
+.navbar-inner {
+    background-color: #373837;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#232423));
+    background-image: -webkit-linear-gradient(top, #494949, #232423);
+    background-image: -moz-linear-gradient(top, #494949, #232423);
+    background-image: -ms-linear-gradient(top, #494949, #232423);
+    background-image: -o-linear-gradient(top, #494949, #232423);
+    background-image: linear-gradient(top, #494949, #232423);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#494949, endColorstr=#232423);
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.navbar-inner .nav {
+    float: right;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    background: url(img/weboniselab-logo.png) 0 0 no-repeat;
+    width: 257px;
+    height: 44px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.navbar .nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0.9em;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #000;
+    font-family: 'cartogothic_stdbold';
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Slider */
+
+.mainBannerContainer {
+    width: auto;
+}
+
+.mainBanner {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.mainBanner #slideshow  {
+    width: 100%;
+    text-align: center;
+}
+.mainBanner #slideshow img  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100% !important;
+}
+.mainBanner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sliderNav {
+    margin: -100px auto 0 auto;
+    position: relative;
+    height: 96px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 -3px 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 -3px 6px rgba(0,0,0,0.3);
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 942px;
+    background: url("img/slider_navbg.png") repeat-x 0 0;
+    z-index: 999;
+}
+
+.title {
+    color: #444444;
+    font: normal 24px/26px cartogothic_stdbold;
+    text-shadow: 1px 0 0 #ffffff;
+    text-align: right;
+    width: 96px;
+    float: left;
+    margin: 26px 20px 0 46px;
+}
+
+.sliderNav ul {
+    margin-top: 18px;
+}
+.sliderNav ul li {
+    width: 140px;
+    height: 60px;
+    display: block;
+    float: left;
+    background: url("img/slider_nav_divider.jpg") 0 10px no-repeat;
+    padding: 0 8px;
+    position: relative;
+}
+.sliderNav ul li:first-child {
+    padding: 0 8px 0 0;
+    background: none;
+}
+
+.sliderNav ul li span  {
+    background: url("img/active_icon.png") 0 0 no-repeat;
+    width: 36px;
+    height: 20px;
+    display: none;
+    position: absolute;
+    top: -40px;
+    left: 62px;
+}
+
+.sliderNav ul li.activeSlide span {
+    display: block;
+}
+
+.sliderNav ul li div {
+    width: 140px;
+    height: 60px;
+}
+.sliderNav ul li div:hover, .sliderNav ul li.activeSlide div {
+    background: url("img/slider_nav_hover.png") center center no-repeat;
+}
+
+.sliderNav ul li a {
+    display: block;
+    width: 140px;
+    height: 60px;
+    /*background: url("img/slider_tabs.png") no-repeat 0 0;*/
+}
+.sliderNav ul li a.mlb {
+    background-position: 4px 18px;
+}
+.sliderNav ul li a.match {
+    background-position: 14px -58px;
+}
+.sliderNav ul li a.mmt {
+    background-position: 14px -151px;
+}
+.sliderNav ul li a.vmware {
+    background-position: 25px -246px;
+}
+.sliderNav ul li a.buhler {
+    background-position: 11px -348px;
+}
+.padding0 {
+    padding: 0;
+}
+.container.sliderBtmBrdr {
+    margin: -8px auto 0;
+}
+
+.greenHeading {
+    color: #77cc11;
+    font: normal 36px/38px cartogothic_stdregular;
+    margin: 0 0 0 38px;
+}
+
+.greenHeading span {
+    font-family: cartogothic_stdbold;
+}
+
+.webonisers {
+    /*background: url("images/company_info.png") 0 0 no-repeat;*/
+    margin: 30px 0;
+}
+
+.infoBox {
+    border-top: 1px solid #cccccc;
+    padding-top: 16px;
+    width: 370px;
+    margin-left: 20px
+}
+
+.infoBox a {
+    background: url("img/info_icons.png") top right no-repeat;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+    text-align: right;
+    padding-right: 56px;
+    float: right;
+    margin-right: 20px;
+}
+
+.startUps {
+    /*background: url("images/company_info.png") -427px 0 no-repeat;*/
+}
+
+.infoBox a.technologyPartner {
+    background-position: 0 -80px;
+    text-align: left;
+    padding: 0 0 0 54px;
+    margin-left: 20px;
+    float: left;
+}
+.divider {
+    float: left;
+    width: 39px;
+    margin: -36px -19px 0 -20px;
+}
+
+.divider img {
+    width: 100%;
+}
+
+.hrLine {
+    height: 20px;
+    margin: 40px 0 70px 0;
+    background-image: url("img/hr_line.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Blog */
+
+.blogWrapper {
+    background: #eaf2dd;
+    padding: 30px 0 40px;
+}
+.blogText {
+    background: url("img/blog.png") 0 0 no-repeat;
+    width: 68px;
+    height: 34px;
+    margin: 0 auto 22px;
+    display: block;
+}
+
+.contentBlock {
+    width: 662px;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.contentBlock img {
+    float: left;
+}
+
+.contentBlock .content {
+    float: left;
+}
+
+.contentBlock .content {
+    background: url("img/content_vrline.png") 0 34px no-repeat;
+    padding: 24px 20px 16px 20px;
+    height: 223px;
+    width: 240px;
+}
+
+
+.heading {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 16px 0;
+    font-weight: normal;
+    color: #222222;
+}
+.content p {
+    margin: 0 0 16px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+.boldLink {
+    color: #222222;
+    font: normal 14px/16px cartogothic_stdbold;
+}
+
+.boldLink:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+.infoBlock {
+    float: left;
+    width: 268px;
+    margin-left: 10px;
+}
+.infoBlock a {
+    /*background: url("img/info_images.png") 0 0 no-repeat;*/
+    display: block;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    /*cursor: default;*/
+}
+.infoBlock a.googleSearch {
+    background-position: 0 0;
+    /*width: 268px;*/
+    /*height: 123px;*/
+    margin-bottom: 14px
+}
+
+.infoBlock a.appStore {
+    background-position: 0 -134px;
+    float: left;
+    margin-right: 14px;
+    /*width: 127px;*/
+    /*height: 126px;*/
+}
+.infoBlock a.appStore.android {
+    background-position: -141px -134px;
+    margin-right: 0;
+}
+
+.startUpsBlock {
+    width: 448px;
+}
+
+.twitterBlock {
+    margin-bottom: 0;
+}
+
+.blocks {
+    margin-bottom: 70px;
+}
+
+.aboutCompany {
+    margin-top: 46px;
+}
+
+/* Footer */
+
+#footer {
+    font-size: 11px;
+    line-height: 1.5em;
+}
+
+#footer-wrapper .grid.col-940 {
+    margin: 0;
+}
+
+.scroll-top {
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.powered {
+    text-align: center;
+    font-size: 15px;
+    line-height: 16px;
+    color: #ffffff;
+    margin: 20px 0 0;
+    height: 40px;
+}
+
+#footer .social-icons {
+    list-style: none;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+ul.social-icons li {
+    float: left;
+    margin-right: 5px;
+}
+ul.social-icons li a {
+    background: url("img/icons-sprite.png") 0 0 no-repeat;
+    width: 24px;
+    height: 25px;
+    display: block;
+}
+ul.social-icons li a.twitt {
+    background-position: -29px 0;
+}
+ul.social-icons li a.in {
+    background-position: -57px 0;
+}
+.connect {
+    margin-right: 20px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+footer {
+    background: url(img/pyramid-bg.jpg) left top repeat-x #0d2b3c;
+    padding: 40px 0 0;
+}
+.footer-menu {
+    margin-left: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.footer-menu li a {
+    color: #ffffff;
+    padding: 0 20px;
+    font-family: 'cartogothic_stdbold';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-menu > li:first-child > a {
+    border-left: none;
+    /*padding: 0 0 0 10px;*/
+}
+.footerNav {
+    border-bottom: 1px solid #264150;
+    height: 70px;
+
+}
+.footerNav .grid {
+    margin-bottom: 0;
+}
+.footerNav .span7 {
+    border-right: 1px solid #264150;
+    margin-bottom: 0;
+    padding: 20px 0 ;
+}
+.socialMenu {
+    margin: 15px 0 0 60px;
+}
+
+.emailSign {
+    position: relative;
+    width: 250px;
+}
+.emailInput {
+    background: url("img/icons-sprite.png") -194px 0 no-repeat;
+    width: 25px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    right: -26px;
+    top: 21px;
+    filter: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+.emailInput:hover {
+    background: url("img/icons-sprite.png") -194px 0 no-repeat;
+    filter: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+
+input.email {
+    background: none;
+    border: 1px solid #244555;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 233px;
+    display: inline-block;
+    margin: 20px 0 10px;
+    color: #ffffff;
+    font: normal 11px/14px 'cartogothic_stdbold';
+    padding: 2px 36px 2px 6px;
+}
+.footerLogo {
+    background: url("img/weboniselab-footer-logo.png") 0 0 no-repeat;
+    width: 169px;
+    height: 25px;
+    margin-top: 20px;
+}
+address {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 6px 0 0;
+}
+ul.add {
+    margin-top: 10px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.add li {
+    display: block;
+    margin: 4px 0;
+    clear: both;
+    line-height: 25px;
+}
+.add li a {
+    color: #ffffff;
+}
+.add span.email {
+    background: url("img/icons-sprite.png") -137px 0 no-repeat;
+    height: 14px;
+    width: 20px;
+    margin: 7px 10px 0 0;
+    float: left;
+}
+.add span.phone {
+    background: url("img/icons-sprite.png") -169px 0 no-repeat;
+    height: 26px;
+    width: 14px;
+    margin: 2px 10px 0 3px;
+    float: left;
+}
+.twiiterHeading {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #ffffff;
+    float: left;
+    line-height: 40px;
+}
+.twiiterHeading span {
+    background: url("img/icons-sprite.png") -90px 0 no-repeat;
+    height: 24px;
+    width: 37px;
+    margin: 2px 4px 0 3px;
+    float: left;
+}
+.twitterPanel {
+    background: #0b2432;
+    box-shadow: inset 0 4px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 4px 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 4px 5px rgba(0,0,0,0.2);
+    padding: 12px;
+    float: left;
+    border: 1px solid #264150;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #ffffff;
+}
+
+.footerMenu {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footerMenu li {
+    display: inline-block;
+    margin-right: 36px;
+    float: left;
+}
+.footerMenu li a {
+    color: #ffffff;
+}
+.footerMenu li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.addressBlock {
+    width: 200px;
+}
+
+.contactBlock {
+    width: 240px;
+}
+
+.navbar .container {
+    padding: 0 10px;
+}
+.navbar .btn-navbar {
+    margin: 0;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+.navbar-inner .nav, .navbar .nav > li {
+    float: none;
+}
+
+.contentBlock {
+    width: 446px;
+}
+
+.contentBlock .content {
+    width: auto;
+    height: auto;
+}
+
+.startUps {
+    margin-bottom: 68px;
+}
+.infoBox {
+    width: auto;
+}
+
+.startUps {
+    margin-bottom: 25px;
+}
+
+.aboutCompany .span6 {
+    width: 322px;
+}
+
+.rightDivider {
+    background-position: 356px -40px;
+    padding-right: 60px;
+}
+
+.sliderNav {
+    width: 626px;
+    margin: -82px auto 0 auto;
+    height: 78px;
+}
+
+.sliderNav ul li div:hover, .sliderNav ul li.activeSlide div {
+    background: url("img/small_slider_nav_hover.png") center center no-repeat;
+}
+
+.sliderNav ul li span {
+    width: 28px;
+    height: 16px;
+    top: -36px;
+    left: 30px;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 20px 20px 0 20px
+}
+
+
+.sliderNav ul li, .sliderNav ul li div, .sliderNav ul li a {
+    width: 80px;
+    height: 40px;
+}
+
+.sliderBtmBrdr {
+    width: auto;
+}
+
+.sliderNav ul li {
+    background-position: 0 -4px;
+}
+
+.footerNav .span7 {
+    padding-bottom: 0;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin: 0;
+}
+
+.navbar-inner .nav, .navbar .nav > li {
+    float: none;
+}
+
+.blocks .span4 {
+    margin-bottom: 10px;
+}
+
+.contentBlock {
+    width: 63%;
+}
+
+.contentBlock .content {
+    width: auto;
+    height: auto;
+}
+
+.infoBlock {
+    margin: 0 0 0 2%;
+    width: 35%;
+}
+
+.infoBlock a.appStore {
+    width: 47%;
+    margin-right: 6%;
+}
+
+.infoBlock a.appStore.android {
+    margin-right: 0;
+}
+
+.rightDivider {
+    background: none;
+}
+.infoBox {
+    width: auto;
+    margin-left: 0;
+}
+
+.infoBox a {
+    float: none;
+    text-align: left;
+}
+
+.infoBox a.technologyPartner {
+    margin-left: 0;
+}
+
+.startUps {
+    margin-left: 0;
+}
+
+.sliderNav, .sliderBtmBrdr {
+    display: none;
+}
+
+.socialMenu {
+    margin-left: 0;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.footerMenu li {
+    margin-right: 24px;
+}
+
+.aboutCompany .rightDivider, .aboutCompany .startUpsWrapper {
+    width: 46%;
+    float: left;
+}
+
+.contactInfo .copyright, .contactInfo .twitterBlock {
+    width: 46%;
+    float: left;
+}
+
+.contactInfo .twitterBlock {
+    margin-left: 2%;
+}
+
+.greenHeading {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.divider {
+    width: 5%;
+    margin: 0;
+}
+
+.mainBannerContainer {
+    padding: 0;
+}
+
+.emailSign {
+    width: 200px;
+}
+
+input.email {
+    width: 182px;
+}
+
+.footerNav .span7 {
+    float: left;
+    width: 50%;
+    height: 70px;
+}
+
+.socialMenu {
+    margin-left: 2%;
+    float: left;
+    width: 48%;
+}
+
+.navbar-inner .nav {
+    margin-top: 40px;
+}
+
+}
+
+
+@media (min-width: 380px) and (max-width: 767px) {
+
+.blocks {
+    margin-left: -2%;
+}
+
+.blocks .span4 {
+    float: left;
+    width: 31%;
+    margin-left: 2%;
+}
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+.contentBlock .content {
+    padding: 12px;
+}
+
+.greenHeading {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+.logo {
+    margin-left: 10px;
+}
+
+.aboutCompany {
+    margin-top: 20px;
+}
+
+.emailSign {
+    width: 220px;
+}
+
+input.email {
+    width: 202px;
+}
+
+.footerNav {
+    height: auto;
+    border-bottom: none;
+}
+
+.hrLine {
+    display: none;
+}
+
+.footerNav .span7 {
+    padding: 10px 0;
+}
+
+.blocks {
+    margin: 20px 0;
+}
+
+.footerMenu li {
+    margin-right: 18px;
+}
+
+.mainBannerContainer {
+    padding: 0;
+}
+
+.logo {
+    background: url(img/weboniselab-logo-small.png) 0 0 no-repeat;
+    width: 200px;
+    height: 34px;
+}
+
+.twitterPanel {
+    padding: 10px;
+}
+
+
+.aboutCompany .rightDivider, .aboutCompany .startUpsWrapper, .contactInfo .copyright, .contactInfo .twitterBlock, .footerNav .span7, .socialMenu, .contentBlock, .infoBlock {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+}
+
+.footerNav .span7 {
+    border-right: none;
+    height: auto;
+}
+
+.startUpsWrapper {
+    margin-top: 20px;
+}
+
+.divider {
+    display: none;
+}
+
+.footerMenu {
+    margin-bottom: 0;
+}
+
+.infoBlock {
+    margin: 10px 0 0 0;
+    float: left;
+    width: 100%;
+}
+
+.infoBlock .googleSearch  {
+    width: auto;
+}
+
+.infoBlock a.appStore {
+    margin-right: 4%;
+}
+
+footer {
+    padding: 26px 0 0
+}
+
+ul.add {
+    margin-top: 12px;
+}
+
+.webonisers img, .blocks img, .infoBlock img {
+    width: 100%;
+}
+.infoBlock a.appStore {
+    width: 48%;
+}
+
+}

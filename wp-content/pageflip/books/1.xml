@@ -1,0 +1,125 @@
+<FlippingBook>
+	<stageWidth>100%</stageWidth>
+	<stageHeight>512</stageHeight>
+	<width>640</width>
+	<height>480</height>
+	<dynamicScaling>true</dynamicScaling>
+	<scaleContent>true</scaleContent>
+	<centerContent>true</centerContent>
+	<preserveProportions>false</preserveProportions>
+	<hardcover>false</hardcover>
+	<hardcoverThickness>3</hardcoverThickness>
+	<frameWidth>0</frameWidth>
+	<frameColor>0xFFFFFF</frameColor>
+	<frameAlpha>100</frameAlpha>
+	<firstPage>0</firstPage>
+	<flipOnClick>true</flipOnClick>
+	<handOverCorner>true</handOverCorner>
+	<handOverPage>true</handOverPage>
+	<alwaysOpened>false</alwaysOpened>
+	<staticShadowsType>Symmetric</staticShadowsType>
+	<staticShadowsDepth>1</staticShadowsDepth>
+	<rigidPageSpeed>5</rigidPageSpeed>
+	<flipSound>http://wordpress.weboniselab.com/wp-content/pageflip/sounds/1.mp3</flipSound>
+	<preloaderType>Progress Bar</preloaderType>
+	<rigidPages>false</rigidPages>
+	<zoomEnabled>true</zoomEnabled>
+	<zoomImageWidth>800</zoomImageWidth>
+	<zoomImageHeight>1200</zoomImageHeight>
+	<zoomOnClick>true</zoomOnClick>
+	<zoomHintEnabled>false</zoomHintEnabled>
+	<zoomHint>Double click for zooming</zoomHint>
+	<centerBook>true</centerBook>
+	<useCustomCursors>false</useCustomCursors>
+	<dropShadowEnabled>true</dropShadowEnabled>
+	<dropShadowHideWhenFlipping>true</dropShadowHideWhenFlipping>
+	<backgroundColor>0xFFFFFF</backgroundColor>
+	<pageBack>0x99CCFF</pageBack>
+	<backgroundImage></backgroundImage>
+	<backgroundImagePlacement>fit</backgroundImagePlacement>
+	<printEnabled>true</printEnabled>
+	<printTitle>Print Pages</printTitle>
+	<navigation>true</navigation>
+	<downloadURL></downloadURL>
+	<downloadTitle>Start Download</downloadTitle>
+	<downloadSize></downloadSize>
+	<downloadComplete>Complete</downloadComplete>
+	<popup>false</popup>
+	<autoReduce>false</autoReduce>
+	<allowPagesUnload>false</allowPagesUnload>
+	<autoFlip>50</autoFlip>
+	<closeSpeed>3</closeSpeed>
+	<darkPages>false</darkPages>
+	<dynamicShadowsDarkColor>0x000000</dynamicShadowsDarkColor>
+	<dynamicShadowsDepth>1</dynamicShadowsDepth>
+	<dynamicShadowsLightColor>0xFFFFFF</dynamicShadowsLightColor>
+	<firstLastButtons>true</firstLastButtons>
+	<flipCornerAmount>70</flipCornerAmount>
+	<flipCornerAngle>45</flipCornerAngle>
+	<flipCornerPlaySound>false</flipCornerPlaySound>
+	<flipCornerPosition>top-right</flipCornerPosition>
+	<flipCornerRelease>true</flipCornerRelease>
+	<flipCornerStyle>manually</flipCornerStyle>
+	<flipCornerVibrate>true</flipCornerVibrate>
+	<freezeOnFlip>false</freezeOnFlip>
+	<fullscreenEnabled>true</fullscreenEnabled>
+	<fullscreenHint>firstbook</fullscreenHint>
+	<goToPageField>true</goToPageField>
+	<gotoSpeed>3</gotoSpeed>
+	<hardcoverEdgeColor>0xFFFFFF</hardcoverEdgeColor>
+	<hardcoverSound></hardcoverSound>
+	<highlightHardcover>true</highlightHardcover>
+	<loadOnDemand>true</loadOnDemand>
+	<moveSpeed>2</moveSpeed>
+	<navigationBarSkin>navigation</navigationBarSkin>
+	<navigationBarPlacement>bottom</navigationBarPlacement>
+	<navigationFlipOffset>30</navigationFlipOffset>
+	<playOnDemand>true</playOnDemand>
+	<showUnderlyingPages>false</showUnderlyingPages>
+	<slideshowAutoPlay>false</slideshowAutoPlay>
+	<slideshowButton>false</slideshowButton>
+	<slideshowDisplayDuration>5000</slideshowDisplayDuration>
+	<smoothPages>true</smoothPages>
+	<staticShadowsDarkColor>0x000000</staticShadowsDarkColor>
+	<staticShadowsLightColor>0xFFFFFF</staticShadowsLightColor>
+	<zoomUIColor>0x8f9ea6</zoomUIColor>
+	<pages>
+		<page name="i_hwHduibN" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_hwHduibN.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_hwHduibN.jpg</page>
+		<page name="i_9nf8Q4ln" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_9nf8Q4ln.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_9nf8Q4ln.jpg</page>
+		<page name="i_PLjMZY" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_PLjMZY.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_PLjMZY.jpg</page>
+		<page name="i_RlhgtDNwYW" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_RlhgtDNwYW.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_RlhgtDNwYW.jpg</page>
+		<page name="i_AovOusum" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_AovOusum.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_AovOusum.jpg</page>
+		<page name="i_uAVtfvDSk" zoomURL="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_uAVtfvDSk.jpg" zoomType="type4" target="type1" zoomHeight="600" zoomWidth="800">http://wordpress.weboniselab.com/wp-content/pageflip/images/i_uAVtfvDSk.jpg</page>
+	</pages>
+<album id="1" pageWidth="320" pageHeight="480" frameSize="0">
+<images>
+<img id="0" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_hwHduibN.jpg" width="127" height="126" />
+<img id="1" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_9nf8Q4ln.jpg" width="127" height="126" />
+<img id="2" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_PLjMZY.jpg" width="268" height="123" />
+<img id="3" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_RlhgtDNwYW.jpg" width="369" height="263" />
+<img id="4" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/t_i_AovOusum.jpg" width="1000" height="1000" />
+<img id="5" thumb="http://wordpress.weboniselab.com/wp-content/pageflip/images/i_uAVtfvDSk.jpg" width="940" height="430" />
+</images>
+<pages>
+<page id="-1"></page>
+<page id="0" template="1">
+<img id="0" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+<page id="1" template="1">
+<img id="1" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+<page id="2" template="1">
+<img id="2" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+<page id="3" template="1">
+<img id="3" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+<page id="4" template="1">
+<img id="4" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+<page id="5" template="1">
+<img id="5" scaling="scaleToFill" x="0" y="0" description="" />
+</page>
+</pages>
+</album>
+</FlippingBook>
